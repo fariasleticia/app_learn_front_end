@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Learn Front-end</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: verdana;
+            margin: 50px 350px 50px 350px;
+        }
+        button {
+            padding: 15px 25px 15px 25px;
+            margin: 10px;
+            color: white;
+            background-color: purple;
+            border: none;
+            border-radius: 16px;
+            font-family: verdana;
+        }
+        p {
+            text-align: justify;
+            font-size: 16px;
+        }
+        b {
+            color: purple;
+        }
+        h2 {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h2>JavaScript aplicado em HTML <br> DOM Básico</h2>
+
+    <button id="botao-html" onclick="document.getElementById('paragrafo1').innerHTML = 'HTML é a sigla de <b>HyperText Markup Language</b>, consistindo em uma linguagem de marcação utilizada para produção de páginas na web, que permite a criação de documentos que podem ser lidos em praticamente qualquer tipo de computador e transmitidos pela internet.'">HTML</button>
+    <button id="botao-css" onclick="document.getElementById('paragrafo2').innerHTML = 'CSS é a sigla para <b>Cascading Style Sheets</b>, sendo uma maneira de dar estilo ao código criado por linguagens como HTML. De forma prática, ela funciona como uma camada de personalização ao conteúdo visível.'">CSS</button>
+    <button id="botao-javascript" onclick="document.getElementById('paragrafo3').innerHTML = '<b>JavaScript</b> é uma linguagem de programação de alto nível voltada para aplicações web, de fácil execução e que pode ser rodada a partir de um navegador de internet.'">JavaScript</button>
+    <button id="botao-dom" onclick="document.getElementById('paragrafo4').innerHTML = 'O <b>Document Object Model (DOM)</b> é uma interface de programação para os documentos HTML e XML. Representa a página de forma que os programas possam alterar a estrutura do documento, alterar o estilo e conteúdo.'">DOM</button>
+
+    <p id="paragrafo1"></p>
+    <p id="paragrafo2"></p>
+    <p id="paragrafo3"></p>
+    <p id="paragrafo4"></p>
+</body>
+</html>
